@@ -3,21 +3,27 @@ The Personal Expense Tracker is a Python-based tool to manage finances efficient
 
 # File Handling:   
   All data is stored persistently in text files, ensuring that expense records are saved securely.
+  
   Each user has a dedicated file, enabling multi-user functionality.
   
 # Libraries Used:
   os: For file management and directory handling.
+  
   datetime: For validating and formatting dates.
+  
   matplotlib: For generating pie charts to visualize expense distribution.
+  
   tabulate: To display tabular data in a readable format within the console.
+  
   csv: For exporting data in a standard, shareable format.
+  
   colorama: To enhance the console interface with colored text for better readability.
   
 # Target Audience:
   This project is ideal for individuals, families, or small business owners who want a simple, offline tool to manage and 
   analyze their expenses without relying on complex or expensive software.
 
-# Objectives
+# Features Implemented
   1)Expense Management:
    Add, view, edit, and delete expenses by category.
    Categorize spending under labels like "Food," "Travel," or "Utilities" for better organization.
@@ -43,6 +49,13 @@ The Personal Expense Tracker is a Python-based tool to manage finances efficient
   7)Data Export:
    Export expense data to a CSV file for use in external applications like Microsoft Excel or Google Sheets.
    
-# Create a text file in the name expenses.txt and store it in the same directory
+# How to Run the project
+  1)Dowload the repository and save as expense_tracker.py
+  
+  2)Create a text file in the name expenses.txt and store it in the same directory
+  
+  3)Change the path accordingly
+
+  4)Implement the features based on menu options displayed on the console
 
 
